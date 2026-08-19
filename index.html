@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Raleway:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="assets/css/style.css?v=2">
+  <link rel="stylesheet" href="assets/css/style.css?v=5">
 </head>
 
 <body>
@@ -280,54 +280,115 @@
         <span>Program</span>
         <h2>Schedule</h2>
       </div>
-      <div class="table-responsive mb-3">
+      <div class="table-responsive mb-3 d-none d-lg-block">
         <table class="table schedule-table table-bordered align-middle">
           <thead>
             <tr>
-              <th style="width:145px;">Date</th>
-              <th>Morning</th>
-              <th>Afternoon</th>
-              <th>Evening</th>
+              <th style="width:110px;"></th>
+              <th>Wed, Sep 9</th>
+              <th>Thu, Sep 10</th>
+              <th>Fri, Sep 11</th>
+              <th>Sat, Sep 12</th>
+              <th>Sun, Sep 13</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td class="day-col">Wed, Sep 9</td>
-              <td><em>To be announced</em></td>
-              <td><em>To be announced</em></td>
-              <td><em>To be announced</em></td>
+              <td class="day-col">Morning</td>
+              <td class="cell-left">9:30–10:00 <strong>Coffee Break</strong><hr class="cell-divider">10:00–12:00 <strong>Gabelaia</strong></td>
+              <td class="cell-left">9:30–10:00 <strong>Coffee Break</strong><hr class="cell-divider">10:00–12:00 <strong>Baaz</strong></td>
+              <td>8:30 am Excursion departs — Uplistsikhe, Gori</td>
+              <td class="cell-left">9:30–10:00 <strong>Coffee Break</strong><hr class="cell-divider">10:00–12:00 <strong>Kuznetsov</strong></td>
+              <td class="cell-left">9:30–10:00 <strong>Coffee Break</strong><hr class="cell-divider">10:00–12:00 <strong>Baaz</strong></td>
             </tr>
             <tr>
-              <td class="day-col">Thu, Sep 10</td>
-              <td><em>To be announced</em></td>
-              <td><em>To be announced</em></td>
-              <td><em>To be announced</em></td>
-            </tr>
-            <tr>
-              <td class="day-col">Fri, Sep 11</td>
-              <td>Excursion departs 8:30 am — Uplistsikhe, Gori</td>
+              <td class="day-col">Afternoon</td>
+              <td class="cell-left">12:00–14:00 <strong>Lunch Break</strong><hr class="cell-divider">14:00–16:00 <strong>Pinsker</strong></td>
+              <td class="cell-left">12:00–14:00 <strong>Lunch Break</strong><hr class="cell-divider">14:00–16:00 <strong>Pinsker</strong></td>
               <td>Mtskheta &amp; Sveti-Tskhoveli</td>
+              <td class="cell-left">12:00–14:00 <strong>Lunch Break</strong><hr class="cell-divider">14:00–16:00 <strong>Gabelaia</strong></td>
+              <td class="cell-left">12:00–14:00 <strong>Lunch Break</strong><hr class="cell-divider">14:00–16:00 <strong>Kuznetsov</strong></td>
+            </tr>
+            <tr>
+              <td class="day-col">Evening</td>
+              <td class="cell-left">16:00–16:30 <strong>Coffee Break</strong><hr class="cell-divider">16:30–18:30 <strong>Baratashvili</strong></td>
+              <td class="cell-left">16:00–16:30 <strong>Coffee Break</strong><hr class="cell-divider">16:30–18:30 <strong>Baratashvili</strong></td>
               <td>Sunset at Jvari · Dinner at Cafe Tatin, Mtskheta</td>
-            </tr>
-            <tr>
-              <td class="day-col">Sat, Sep 12</td>
-              <td><em>To be announced</em></td>
-              <td><em>To be announced</em></td>
-              <td><em>To be announced</em></td>
-            </tr>
-            <tr>
-              <td class="day-col">Sun, Sep 13</td>
-              <td><em>To be announced</em></td>
-              <td><em>To be announced</em></td>
-              <td>—</td>
+              <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p class="text-center fst-italic" style="color:#999; font-size:0.9rem;">
-        <i class="bi bi-info-circle me-1"></i>
-        The detailed program will be announced closer to the event.
-      </p>
+
+      <div class="accordion schedule-accordion d-lg-none mb-3" id="scheduleAccordion">
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="sched-h-wed">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sched-c-wed" aria-expanded="true" aria-controls="sched-c-wed">Wed, Sep 9</button>
+          </h3>
+          <div id="sched-c-wed" class="accordion-collapse collapse show" aria-labelledby="sched-h-wed" data-bs-parent="#scheduleAccordion">
+            <div class="accordion-body">
+              <div class="schedule-day-row"><div class="sdr-label">Morning</div><div class="sdr-content">9:30–10:00 <strong>Coffee Break</strong><hr class="cell-divider">10:00–12:00 <strong>Gabelaia</strong></div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Afternoon</div><div class="sdr-content">12:00–14:00 <strong>Lunch Break</strong><hr class="cell-divider">14:00–16:00 <strong>Pinsker</strong></div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Evening</div><div class="sdr-content">16:00–16:30 <strong>Coffee Break</strong><hr class="cell-divider">16:30–18:30 <strong>Baratashvili</strong></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="sched-h-thu">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sched-c-thu" aria-expanded="false" aria-controls="sched-c-thu">Thu, Sep 10</button>
+          </h3>
+          <div id="sched-c-thu" class="accordion-collapse collapse" aria-labelledby="sched-h-thu" data-bs-parent="#scheduleAccordion">
+            <div class="accordion-body">
+              <div class="schedule-day-row"><div class="sdr-label">Morning</div><div class="sdr-content">9:30–10:00 <strong>Coffee Break</strong><hr class="cell-divider">10:00–12:00 <strong>Baaz</strong></div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Afternoon</div><div class="sdr-content">12:00–14:00 <strong>Lunch Break</strong><hr class="cell-divider">14:00–16:00 <strong>Pinsker</strong></div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Evening</div><div class="sdr-content">16:00–16:30 <strong>Coffee Break</strong><hr class="cell-divider">16:30–18:30 <strong>Baratashvili</strong></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="sched-h-fri">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sched-c-fri" aria-expanded="false" aria-controls="sched-c-fri">Fri, Sep 11</button>
+          </h3>
+          <div id="sched-c-fri" class="accordion-collapse collapse" aria-labelledby="sched-h-fri" data-bs-parent="#scheduleAccordion">
+            <div class="accordion-body">
+              <div class="schedule-day-row"><div class="sdr-label">Morning</div><div class="sdr-content">8:30 am Excursion departs — Uplistsikhe, Gori</div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Afternoon</div><div class="sdr-content">Mtskheta &amp; Sveti-Tskhoveli</div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Evening</div><div class="sdr-content">Sunset at Jvari · Dinner at Cafe Tatin, Mtskheta</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="sched-h-sat">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sched-c-sat" aria-expanded="false" aria-controls="sched-c-sat">Sat, Sep 12</button>
+          </h3>
+          <div id="sched-c-sat" class="accordion-collapse collapse" aria-labelledby="sched-h-sat" data-bs-parent="#scheduleAccordion">
+            <div class="accordion-body">
+              <div class="schedule-day-row"><div class="sdr-label">Morning</div><div class="sdr-content">9:30–10:00 <strong>Coffee Break</strong><hr class="cell-divider">10:00–12:00 <strong>Kuznetsov</strong></div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Afternoon</div><div class="sdr-content">12:00–14:00 <strong>Lunch Break</strong><hr class="cell-divider">14:00–16:00 <strong>Gabelaia</strong></div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Evening</div><div class="sdr-content">—</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="sched-h-sun">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sched-c-sun" aria-expanded="false" aria-controls="sched-c-sun">Sun, Sep 13</button>
+          </h3>
+          <div id="sched-c-sun" class="accordion-collapse collapse" aria-labelledby="sched-h-sun" data-bs-parent="#scheduleAccordion">
+            <div class="accordion-body">
+              <div class="schedule-day-row"><div class="sdr-label">Morning</div><div class="sdr-content">9:30–10:00 <strong>Coffee Break</strong><hr class="cell-divider">10:00–12:00 <strong>Baaz</strong></div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Afternoon</div><div class="sdr-content">12:00–14:00 <strong>Lunch Break</strong><hr class="cell-divider">14:00–16:00 <strong>Kuznetsov</strong></div></div>
+              <div class="schedule-day-row"><div class="sdr-label">Evening</div><div class="sdr-content">—</div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </section>
 

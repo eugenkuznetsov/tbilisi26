@@ -458,6 +458,56 @@ section { padding: 80px 0; }
   font-family: var(--nav-font);
   font-size: 0.82rem;
 }
+.schedule-table .cell-divider {
+  margin: 6px auto;
+  width: 90%;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  opacity: 1;
+}
+.schedule-table .cell-left {
+  text-align: left;
+}
+.schedule-accordion .accordion-button {
+  font-family: var(--nav-font);
+  font-weight: 600;
+  color: var(--heading-color);
+  background-color: transparent;
+}
+.schedule-accordion .accordion-button:not(.collapsed) {
+  color: var(--accent-color);
+  background-color: color-mix(in srgb, var(--accent-color) 8%, transparent);
+  box-shadow: none;
+}
+.schedule-accordion .accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+.schedule-day-row {
+  display: flex;
+  gap: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 0.9rem;
+}
+.schedule-day-row:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.schedule-day-row:first-child {
+  padding-top: 0;
+}
+.schedule-day-row .sdr-label {
+  flex: 0 0 90px;
+  font-weight: 700;
+  font-family: var(--nav-font);
+  font-size: 0.82rem;
+  color: var(--heading-color);
+}
+.schedule-day-row .sdr-content {
+  color: #666;
+  line-height: 1.6;
+}
 
 /* ---- Registration ---- */
 .registration-box {
