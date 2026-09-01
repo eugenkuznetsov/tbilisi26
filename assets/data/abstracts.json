@@ -20,6 +20,12 @@
       "Substructural logics are logical systems lacking certain principles called structural rules: contraction, weakening, commutativity. Such logics find their applications in linguistics (Lambek grammars), computer science (reasoning about programs), and other areas. They are also interesting from a purely mathematical point of view. In these lectures, we shall discuss extensions of substructural logics by infinitary proof-theoretic mechanisms. Those naturally arise when the logics in question are extended with fixed point operators, a typical example of which is the Kleene star. We shall discuss infinitary proof theory and algorithmic complexity results for such systems."
     ]
   },
+  "gabelaia": {
+    "title": "Introduction to Semantics of Modal Logic",
+    "abstract": [
+      "In this course we will provide an introduction to the semantical treatment of modal logic. First two lectures will be devoted to introducing basic modal language, Hilbert-style axiomatic definition of normal modal logics and their Kripke semantics. The two remaining lectures will address topological semantics, including the diamond-as-closure interpretation, diamond-as-derivative interpretation and polyhedral semantics."
+    ]
+  },
   "baratashvili": {
     "title": "The Georgian Language: Exploring Its Phonological and Morphosyntactic Peculiarities",
     "abstract": [
