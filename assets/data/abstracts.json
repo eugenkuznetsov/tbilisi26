@@ -5,7 +5,7 @@
       "Quantifier shifts are one of the oldest proof methods, but they are orthogonal to the cut free format: They can shorten proofs non-elementarily. (The proof is based on the sequence of proofs exhibiting a non-elementary difference between proofs with cuts and cut-free proofs by Orevkov). The cost is, however, that those proofs are globally sound but locally unsound. (Their subderivations might be unsound in contrast to the Hilbert concept of proof). In non-classical logics these calculi are only sound when all quantifier shifts are added. This characterizes all intermediate logics where Skolemization and the epsilon calculus is conservative (in contrast to the epsilon theorem which holds only for finite-valued Gödel logics)."
     ],
     "slides": [
-      { "label": "Slides (PDF)", "url": "assets/slides/baaz-power-of-quantifier-shifts.pdf" }
+      { "label": "Slides (PDF)", "url": "slides/baaz-power-of-quantifier-shifts.pdf" }
     ]
   },
   "pinsker": {
@@ -23,7 +23,7 @@
       "Substructural logics are logical systems lacking certain principles called structural rules: contraction, weakening, commutativity. Such logics find their applications in linguistics (Lambek grammars), computer science (reasoning about programs), and other areas. They are also interesting from a purely mathematical point of view. In these lectures, we shall discuss extensions of substructural logics by infinitary proof-theoretic mechanisms. Those naturally arise when the logics in question are extended with fixed point operators, a typical example of which is the Kleene star. We shall discuss infinitary proof theory and algorithmic complexity results for such systems."
     ],
     "slides": [
-      { "label": "Slides (PDF)", "url": "assets/slides/kuznetsov-infinitary-substructural-logics.pdf" }
+      { "label": "Slides (PDF)", "url": "slides/kuznetsov-infinitary-substructural-logics.pdf" }
     ]
   },
   "gabelaia": {
@@ -32,7 +32,7 @@
       "In this course we will provide an introduction to the semantical treatment of modal logic. First two lectures will be devoted to introducing basic modal language, Hilbert-style axiomatic definition of normal modal logics and their Kripke semantics. The two remaining lectures will address topological semantics, including the diamond-as-closure interpretation, diamond-as-derivative interpretation and polyhedral semantics."
     ],
     "slides": [
-      { "label": "Slides (PDF)", "url": "assets/slides/gabelaia-introduction-to-semantics-of-modal-logic.pdf" }
+      { "label": "Slides (PDF)", "url": "slides/gabelaia-introduction-to-semantics-of-modal-logic.pdf" }
     ]
   },
   "baratashvili": {
@@ -45,7 +45,7 @@
       "The theoretical discussion will be accompanied by interactive exercises based on glossed Georgian data. Students will analyse the internal structure of complex verb forms, identify agreement markers and their controllers, and predict changes in case marking and agreement when clauses are transformed from one screeve series to another."
     ],
     "slides": [
-      { "label": "Slides (PDF)", "url": "assets/slides/baratashvili-talk-slides.pdf" }
+      { "label": "Slides (PDF)", "url": "slides/baratashvili-talk-slides.pdf" }
     ]
   }
 }
