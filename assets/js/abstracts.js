@@ -38,6 +38,10 @@
         });
         collapse.appendChild(body);
 
+        talk.appendChild(title);
+        talk.appendChild(btn);
+        talk.appendChild(collapse);
+
         if (data.slides && data.slides.length) {
           var slidesWrap = document.createElement('div');
           slidesWrap.className = 'sd-slides';
@@ -50,12 +54,8 @@
             link.innerHTML = '<i class="bi bi-file-earmark-pdf"></i> ' + slide.label;
             slidesWrap.appendChild(link);
           });
-          collapse.appendChild(slidesWrap);
+          talk.appendChild(slidesWrap);
         }
-
-        talk.appendChild(title);
-        talk.appendChild(btn);
-        talk.appendChild(collapse);
       });
     })
     .catch(function (err) {
