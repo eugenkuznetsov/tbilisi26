@@ -201,6 +201,24 @@ sup { font-size: 0.55em; }
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.25);
 }
 
+.btn-register.is-disabled,
+.btn-register-white.is-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+  transform: none;
+  box-shadow: none;
+}
+
+.registration-closed-note {
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-family: var(--nav-font);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #ff8a8a;
+}
+
 /* ---- Sections ---- */
 section { padding: 80px 0; }
 .light-background { background-color: #f8f9fa; }
@@ -450,6 +468,28 @@ section { padding: 80px 0; }
 }
 .sd-abstract-body p:last-child {
   margin-bottom: 0;
+}
+.sd-slides {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+}
+.sd-slides-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--nav-font);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.sd-slides-link:hover {
+  text-decoration: underline;
+}
+.sd-slides-link i {
+  font-size: 1rem;
 }
 
 /* ---- Topics ---- */
