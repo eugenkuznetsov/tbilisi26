@@ -5,7 +5,7 @@
       "Quantifier shifts are one of the oldest proof methods, but they are orthogonal to the cut free format: They can shorten proofs non-elementarily. (The proof is based on the sequence of proofs exhibiting a non-elementary difference between proofs with cuts and cut-free proofs by Orevkov). The cost is, however, that those proofs are globally sound but locally unsound. (Their subderivations might be unsound in contrast to the Hilbert concept of proof). In non-classical logics these calculi are only sound when all quantifier shifts are added. This characterizes all intermediate logics where Skolemization and the epsilon calculus is conservative (in contrast to the epsilon theorem which holds only for finite-valued Gödel logics)."
     ],
     "slides": [
-      { "label": "Slides (PDF)", "url": "slides/baaz-power-of-quantifier-shifts.pdf" }
+      { "label": "Slides (PDF)", "url": "https://drive.google.com/file/d/1Z-y6uJKcCn_wUC90Yg0BGqZ-t_1-hmXU/view?usp=sharing" }
     ]
   },
   "pinsker": {
@@ -15,6 +15,9 @@
       "A polymorphism of a relational structure A is a multivariate function on the structure leaving all relations of A invariant. It is a generalization of an endomorphism, which is a unary function under which A is invariant, or of an automorphism, which is a unary function under which A is (strongly) invariant.",
       "Similarly to the automorphism group or the endomorphism monoid of A, the set of all polymorphisms of A, called the polymorphism clone Pol(A) of A, provides us with structural information about A, in particular which other structures A can define, interpret, or construct (in a certain precise way). Since the polymorphism clone Pol(A) consists of multivariate functions on the same domain A, it can be viewed as an algebra, just like the set of automorphisms can be viewed as a group. Therefore, algebraic methods can be used to investigate the polymorphism clone Pol(A), and hence derive information about the original structure A. This is the link between model theory and universal algebra.",
       "Every relational structure A defines a computational problem, the Constraint Satisfaction Problem CSP(A), where given a list of variables and atomic statements (called constraints) about these variables in the language of A one has to find a solution, i.e., a map from the variables into A such that all atomic statements are satisfied. This kind of computational problem is extremely general: every computational problem is polynomial-time (Turing) equivalent to CSP(A) for a suitable structure A. Since the polymorphisms of A leave the set of solutions of any instance of CSP(A) invariant, they are central in the study of the computational complexity of CSP(A): in fact, the computational complexity of CSP(A), certain model-theoretic properties of A, and the algebraic structure of the polymorphism clone Pol(A) are tightly connected, with nontrivial implications holding in all directions of this triangle."
+    ],
+    "slides": [
+      { "label": "Slides (PDF)", "url": "https://drive.google.com/file/d/163z0PQXRFqv-531OG4lYwhQ5xqmET14W/view?usp=sharing" }
     ]
   },
   "kuznetsov": {
@@ -23,7 +26,7 @@
       "Substructural logics are logical systems lacking certain principles called structural rules: contraction, weakening, commutativity. Such logics find their applications in linguistics (Lambek grammars), computer science (reasoning about programs), and other areas. They are also interesting from a purely mathematical point of view. In these lectures, we shall discuss extensions of substructural logics by infinitary proof-theoretic mechanisms. Those naturally arise when the logics in question are extended with fixed point operators, a typical example of which is the Kleene star. We shall discuss infinitary proof theory and algorithmic complexity results for such systems."
     ],
     "slides": [
-      { "label": "Slides (PDF)", "url": "slides/kuznetsov-infinitary-substructural-logics.pdf" }
+      { "label": "Slides (PDF)", "url": "https://drive.google.com/file/d/1izmeJzx9TIZRlNg-10be7-U3we-nPN3q/view?usp=sharing" }
     ]
   },
   "gabelaia": {
@@ -32,7 +35,7 @@
       "In this course we will provide an introduction to the semantical treatment of modal logic. First two lectures will be devoted to introducing basic modal language, Hilbert-style axiomatic definition of normal modal logics and their Kripke semantics. The two remaining lectures will address topological semantics, including the diamond-as-closure interpretation, diamond-as-derivative interpretation and polyhedral semantics."
     ],
     "slides": [
-      { "label": "Slides (PDF)", "url": "slides/gabelaia-introduction-to-semantics-of-modal-logic.pdf" }
+      { "label": "Slides (PDF)", "url": "https://drive.google.com/file/d/1mAJzl092zDcruTl2Jyl9kK0cj8XMbr6r/view?usp=sharing" }
     ]
   },
   "baratashvili": {
@@ -45,7 +48,7 @@
       "The theoretical discussion will be accompanied by interactive exercises based on glossed Georgian data. Students will analyse the internal structure of complex verb forms, identify agreement markers and their controllers, and predict changes in case marking and agreement when clauses are transformed from one screeve series to another."
     ],
     "slides": [
-      { "label": "Slides (PDF)", "url": "slides/baratashvili-georgian-language.pdf" }
+      { "label": "Slides (PDF)", "url": "https://drive.google.com/file/d/1s5JM1yVbPquXH-ZT5lqIDzJhF1jO7I28/view?usp=sharing" }
     ]
   }
 }
